@@ -1,0 +1,312 @@
+2019-01-14 10:17:11.073  INFO 8176 --- [main] boot.BootControllerApplication           : Starting BootControllerApplication on admin-PC with PID 8176 (D:\space02\ideal\MaWenBo01\Springboot\boot01\boot\boot-controller\target\classes started by admin in D:\space02\ideal\MaWenBo01\Springboot\boot01\boot)
+2019-01-14 10:17:11.079  INFO 8176 --- [main] boot.BootControllerApplication           : No active profile set, falling back to default profiles: default
+2019-01-14 10:17:12.708  WARN 8176 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[boot]' package. Please check your configuration.
+2019-01-14 10:17:13.176  WARN 8176 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myBatisConfig': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'cpgMater' available
+2019-01-14 10:17:13.189  INFO 8176 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-14 10:17:13.268 ERROR 8176 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setConfigurers in org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration required a bean named 'cpgMater' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'cpgMater' in your configuration.
+
+2019-01-14 10:18:49.527  INFO 7900 --- [main] boot.BootControllerApplication           : Starting BootControllerApplication on admin-PC with PID 7900 (D:\space02\ideal\MaWenBo01\Springboot\boot01\boot\boot-controller\target\classes started by admin in D:\space02\ideal\MaWenBo01\Springboot\boot01\boot)
+2019-01-14 10:18:49.537  INFO 7900 --- [main] boot.BootControllerApplication           : No active profile set, falling back to default profiles: default
+2019-01-14 10:18:51.004  WARN 7900 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[boot]' package. Please check your configuration.
+2019-01-14 10:18:51.519  WARN 7900 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myBatisConfig': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'cpgMater' available
+2019-01-14 10:18:51.531  INFO 7900 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-14 10:18:51.612 ERROR 7900 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setConfigurers in org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration required a bean named 'cpgMater' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'cpgMater' in your configuration.
+
+2019-01-14 10:20:01.463  INFO 5520 --- [main] boot.BootControllerApplication           : Starting BootControllerApplication on admin-PC with PID 5520 (D:\space02\ideal\MaWenBo01\Springboot\boot01\boot\boot-controller\target\classes started by admin in D:\space02\ideal\MaWenBo01\Springboot\boot01\boot)
+2019-01-14 10:20:01.512  INFO 5520 --- [main] boot.BootControllerApplication           : No active profile set, falling back to default profiles: default
+2019-01-14 10:20:03.213  WARN 5520 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[boot]' package. Please check your configuration.
+2019-01-14 10:20:03.929  WARN 5520 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myBatisConfig': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'cpgMater' available
+2019-01-14 10:20:03.944  INFO 5520 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-14 10:20:04.059 ERROR 5520 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setConfigurers in org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration required a bean named 'cpgMater' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'cpgMater' in your configuration.
+
+2019-01-14 10:27:09.163  INFO 5464 --- [main] boot.BootControllerApplication           : Starting BootControllerApplication on admin-PC with PID 5464 (D:\space02\ideal\MaWenBo01\Springboot\boot01\boot\boot-controller\target\classes started by admin in D:\space02\ideal\MaWenBo01\Springboot\boot01\boot)
+2019-01-14 10:27:09.169  INFO 5464 --- [main] boot.BootControllerApplication           : No active profile set, falling back to default profiles: default
+2019-01-14 10:27:10.440  WARN 5464 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[boot]' package. Please check your configuration.
+2019-01-14 10:27:12.370  INFO 5464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-14 10:27:12.434  INFO 5464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-14 10:27:12.434  INFO 5464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-14 10:27:12.455  INFO 5464 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk08\jdk08\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\PLSQL\instantclient_11_2;D:\java\jdk08\jdk08\bin;D:\java\jdk08\jdk08\jre\bin;D:\Space01\ElipseSpace01\WANDA\apache-maven-3.1.1\bin;D:\Space01\Git\Git\cmd;D:\Space01\Git\Git\cmd;D:\Space01\mysql-5.6.41-winx64\bin;D:\gongju\svn\bin;D:\env\apache-ant-1.7.0\bin;;.]
+2019-01-14 10:27:12.962  INFO 5464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-14 10:27:12.963  INFO 5464 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3716 ms
+2019-01-14 10:27:13.448  INFO 5464 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-14 10:27:14.204  INFO 5464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-14 10:27:14.210  INFO 5464 --- [main] boot.BootControllerApplication           : Started BootControllerApplication in 5.915 seconds (JVM running for 6.651)
+2019-01-14 11:32:00.385  INFO 6548 --- [main] boot.BootControllerApplication           : Starting BootControllerApplication on admin-PC with PID 6548 (D:\space02\ideal\MaWenBo01\Springboot\boot01\boot\boot-controller\target\classes started by admin in D:\space02\ideal\MaWenBo01\Springboot\boot01\boot)
+2019-01-14 11:32:00.400  INFO 6548 --- [main] boot.BootControllerApplication           : No active profile set, falling back to default profiles: default
+2019-01-14 11:32:03.251  WARN 6548 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[boot]' package. Please check your configuration.
+2019-01-14 11:32:05.083  INFO 6548 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-14 11:32:05.129  INFO 6548 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-14 11:32:05.130  INFO 6548 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-14 11:32:05.164  INFO 6548 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk08\jdk08\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\PLSQL\instantclient_11_2;D:\java\jdk08\jdk08\bin;D:\java\jdk08\jdk08\jre\bin;D:\Space01\ElipseSpace01\WANDA\apache-maven-3.1.1\bin;D:\Space01\Git\Git\cmd;D:\Space01\Git\Git\cmd;D:\Space01\mysql-5.6.41-winx64\bin;D:\gongju\svn\bin;D:\env\apache-ant-1.7.0\bin;;.]
+2019-01-14 11:32:05.360  INFO 6548 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-14 11:32:05.361  INFO 6548 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4873 ms
+2019-01-14 11:32:06.145  WARN 6548 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'userServices'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServices': Unsatisfied dependency expressed through field 'userAccessor'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userAccessor': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'boot.mapper.common.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-01-14 11:32:06.149  INFO 6548 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-01-14 11:32:06.210  INFO 6548 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-14 11:32:06.505 ERROR 6548 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userMapper in boot.accessor.tuser.UserAccessor required a bean of type 'boot.mapper.common.UserMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'boot.mapper.common.UserMapper' in your configuration.
+
+2019-01-14 11:33:37.260  INFO 6788 --- [main] boot.BootControllerApplication           : Starting BootControllerApplication on admin-PC with PID 6788 (D:\space02\ideal\MaWenBo01\Springboot\boot01\boot\boot-controller\target\classes started by admin in D:\space02\ideal\MaWenBo01\Springboot\boot01\boot)
+2019-01-14 11:33:37.267  INFO 6788 --- [main] boot.BootControllerApplication           : No active profile set, falling back to default profiles: default
+2019-01-14 11:33:38.648  WARN 6788 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[boot]' package. Please check your configuration.
+2019-01-14 11:33:39.816  INFO 6788 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-14 11:33:39.843  INFO 6788 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-14 11:33:39.844  INFO 6788 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-14 11:33:39.852  INFO 6788 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk08\jdk08\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\PLSQL\instantclient_11_2;D:\java\jdk08\jdk08\bin;D:\java\jdk08\jdk08\jre\bin;D:\Space01\ElipseSpace01\WANDA\apache-maven-3.1.1\bin;D:\Space01\Git\Git\cmd;D:\Space01\Git\Git\cmd;D:\Space01\mysql-5.6.41-winx64\bin;D:\gongju\svn\bin;D:\env\apache-ant-1.7.0\bin;;.]
+2019-01-14 11:33:40.184  INFO 6788 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-14 11:33:40.185  INFO 6788 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2786 ms
+2019-01-14 11:33:40.300  WARN 6788 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'userServices'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServices': Unsatisfied dependency expressed through field 'userAccessor'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userAccessor': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'boot.mapper.common.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-01-14 11:33:40.305  INFO 6788 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-01-14 11:33:40.327  INFO 6788 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-14 11:33:40.501 ERROR 6788 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userMapper in boot.accessor.tuser.UserAccessor required a bean of type 'boot.mapper.common.UserMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'boot.mapper.common.UserMapper' in your configuration.
+
+2019-01-14 11:35:16.558  INFO 7060 --- [main] boot.BootControllerApplication           : Starting BootControllerApplication on admin-PC with PID 7060 (D:\space02\ideal\MaWenBo01\Springboot\boot01\boot\boot-controller\target\classes started by admin in D:\space02\ideal\MaWenBo01\Springboot\boot01\boot)
+2019-01-14 11:35:16.564  INFO 7060 --- [main] boot.BootControllerApplication           : No active profile set, falling back to default profiles: default
+2019-01-14 11:35:18.195  WARN 7060 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[boot]' package. Please check your configuration.
+2019-01-14 11:35:19.267  INFO 7060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-14 11:35:19.296  INFO 7060 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-14 11:35:19.297  INFO 7060 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-14 11:35:19.306  INFO 7060 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk08\jdk08\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\PLSQL\instantclient_11_2;D:\java\jdk08\jdk08\bin;D:\java\jdk08\jdk08\jre\bin;D:\Space01\ElipseSpace01\WANDA\apache-maven-3.1.1\bin;D:\Space01\Git\Git\cmd;D:\Space01\Git\Git\cmd;D:\Space01\mysql-5.6.41-winx64\bin;D:\gongju\svn\bin;D:\env\apache-ant-1.7.0\bin;;.]
+2019-01-14 11:35:19.459  INFO 7060 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-14 11:35:19.459  INFO 7060 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2812 ms
+2019-01-14 11:35:19.550  WARN 7060 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'userServices'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServices': Unsatisfied dependency expressed through field 'userAccessor'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userAccessor': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'boot.mapper.common.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-01-14 11:35:19.553  INFO 7060 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-01-14 11:35:19.595  INFO 7060 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-14 11:35:19.754 ERROR 7060 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userMapper in boot.accessor.tuser.UserAccessor required a bean of type 'boot.mapper.common.UserMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'boot.mapper.common.UserMapper' in your configuration.
+
+2019-01-14 11:38:41.319  INFO 7192 --- [main] boot.BootControllerApplication           : Starting BootControllerApplication on admin-PC with PID 7192 (D:\space02\ideal\MaWenBo01\Springboot\boot01\boot\boot-controller\target\classes started by admin in D:\space02\ideal\MaWenBo01\Springboot\boot01\boot)
+2019-01-14 11:38:41.329  INFO 7192 --- [main] boot.BootControllerApplication           : No active profile set, falling back to default profiles: default
+2019-01-14 11:38:42.972  WARN 7192 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[boot]' package. Please check your configuration.
+2019-01-14 11:38:44.036  INFO 7192 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-14 11:38:44.067  INFO 7192 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-14 11:38:44.068  INFO 7192 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-14 11:38:44.079  INFO 7192 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk08\jdk08\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\PLSQL\instantclient_11_2;D:\java\jdk08\jdk08\bin;D:\java\jdk08\jdk08\jre\bin;D:\Space01\ElipseSpace01\WANDA\apache-maven-3.1.1\bin;D:\Space01\Git\Git\cmd;D:\Space01\Git\Git\cmd;D:\Space01\mysql-5.6.41-winx64\bin;D:\gongju\svn\bin;D:\env\apache-ant-1.7.0\bin;;.]
+2019-01-14 11:38:44.217  INFO 7192 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-14 11:38:44.217  INFO 7192 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2678 ms
+2019-01-14 11:38:44.339  WARN 7192 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'userServices'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServices': Unsatisfied dependency expressed through field 'userAccessor'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userAccessor': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'boot.mapper.common.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-01-14 11:38:44.344  INFO 7192 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-01-14 11:38:44.375  INFO 7192 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-14 11:38:44.627 ERROR 7192 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userMapper in boot.accessor.tuser.UserAccessor required a bean of type 'boot.mapper.common.UserMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'boot.mapper.common.UserMapper' in your configuration.
+
+2019-01-14 11:40:49.024  INFO 3720 --- [main] boot.BootControllerApplication           : Starting BootControllerApplication on admin-PC with PID 3720 (D:\space02\ideal\MaWenBo01\Springboot\boot01\boot\boot-controller\target\classes started by admin in D:\space02\ideal\MaWenBo01\Springboot\boot01\boot)
+2019-01-14 11:40:49.034  INFO 3720 --- [main] boot.BootControllerApplication           : No active profile set, falling back to default profiles: default
+2019-01-14 11:40:49.895  WARN 3720 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[boot]' package. Please check your configuration.
+2019-01-14 11:40:51.000  INFO 3720 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-14 11:40:51.037  INFO 3720 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-14 11:40:51.037  INFO 3720 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-14 11:40:51.048  INFO 3720 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk08\jdk08\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\PLSQL\instantclient_11_2;D:\java\jdk08\jdk08\bin;D:\java\jdk08\jdk08\jre\bin;D:\Space01\ElipseSpace01\WANDA\apache-maven-3.1.1\bin;D:\Space01\Git\Git\cmd;D:\Space01\Git\Git\cmd;D:\Space01\mysql-5.6.41-winx64\bin;D:\gongju\svn\bin;D:\env\apache-ant-1.7.0\bin;;.]
+2019-01-14 11:40:51.191  INFO 3720 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-14 11:40:51.192  INFO 3720 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2074 ms
+2019-01-14 11:40:51.293  WARN 3720 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'testController': Unsatisfied dependency expressed through field 'userServices'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userServices': Unsatisfied dependency expressed through field 'userAccessor'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userAccessor': Unsatisfied dependency expressed through field 'userMapper'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'boot.mapper.common.UserMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2019-01-14 11:40:51.297  INFO 3720 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-01-14 11:40:51.319  INFO 3720 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-14 11:40:51.496 ERROR 3720 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field userMapper in boot.accessor.tuser.UserAccessor required a bean of type 'boot.mapper.common.UserMapper' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'boot.mapper.common.UserMapper' in your configuration.
+
+2019-01-14 11:46:42.651  INFO 2772 --- [main] boot.BootControllerApplication           : Starting BootControllerApplication on admin-PC with PID 2772 (D:\space02\ideal\MaWenBo01\Springboot\boot01\boot\boot-controller\target\classes started by admin in D:\space02\ideal\MaWenBo01\Springboot\boot01\boot)
+2019-01-14 11:46:42.669  INFO 2772 --- [main] boot.BootControllerApplication           : No active profile set, falling back to default profiles: default
+2019-01-14 11:46:45.222  WARN 2772 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[boot]' package. Please check your configuration.
+2019-01-14 11:46:46.562  INFO 2772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-14 11:46:46.594  INFO 2772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-14 11:46:46.594  INFO 2772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-14 11:46:46.607  INFO 2772 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk08\jdk08\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\PLSQL\instantclient_11_2;D:\java\jdk08\jdk08\bin;D:\java\jdk08\jdk08\jre\bin;D:\Space01\ElipseSpace01\WANDA\apache-maven-3.1.1\bin;D:\Space01\Git\Git\cmd;D:\Space01\Git\Git\cmd;D:\Space01\mysql-5.6.41-winx64\bin;D:\gongju\svn\bin;D:\env\apache-ant-1.7.0\bin;;.]
+2019-01-14 11:46:46.804  INFO 2772 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-14 11:46:46.805  INFO 2772 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3991 ms
+2019-01-14 11:46:48.871  INFO 2772 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-14 11:46:49.614  INFO 2772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-14 11:46:49.620  INFO 2772 --- [main] boot.BootControllerApplication           : Started BootControllerApplication in 9.28 seconds (JVM running for 10.74)
+2019-01-14 11:47:34.800  INFO 2772 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-14 11:47:34.801  INFO 2772 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-14 11:47:34.844  INFO 2772 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 43 ms
+2019-01-14 11:48:14.847  INFO 4648 --- [main] boot.BootControllerApplication           : Starting BootControllerApplication on admin-PC with PID 4648 (D:\space02\ideal\MaWenBo01\Springboot\boot01\boot\boot-controller\target\classes started by admin in D:\space02\ideal\MaWenBo01\Springboot\boot01\boot)
+2019-01-14 11:48:14.861  INFO 4648 --- [main] boot.BootControllerApplication           : No active profile set, falling back to default profiles: default
+2019-01-14 11:48:16.411  WARN 4648 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[boot]' package. Please check your configuration.
+2019-01-14 11:48:17.499  INFO 4648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-01-14 11:48:17.528  INFO 4648 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-01-14 11:48:17.529  INFO 4648 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-01-14 11:48:17.537  INFO 4648 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\java\jdk08\jdk08\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;D:\Program Files\PLSQL\instantclient_11_2;D:\java\jdk08\jdk08\bin;D:\java\jdk08\jdk08\jre\bin;D:\Space01\ElipseSpace01\WANDA\apache-maven-3.1.1\bin;D:\Space01\Git\Git\cmd;D:\Space01\Git\Git\cmd;D:\Space01\mysql-5.6.41-winx64\bin;D:\gongju\svn\bin;D:\env\apache-ant-1.7.0\bin;;.]
+2019-01-14 11:48:17.681  INFO 4648 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-01-14 11:48:17.681  INFO 4648 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2719 ms
+2019-01-14 11:48:18.053  INFO 4648 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-14 11:48:18.558  INFO 4648 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-01-14 11:48:18.564  INFO 4648 --- [main] boot.BootControllerApplication           : Started BootControllerApplication in 4.728 seconds (JVM running for 5.604)
+2019-01-14 11:48:27.501  INFO 4648 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-01-14 11:48:27.502  INFO 4648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-01-14 11:48:27.514  INFO 4648 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 12 ms
+2019-01-14 14:00:29.989  INFO 8140 --- [main] boot.BootControllerApplication           : Starting BootControllerApplication on admin-PC with PID 8140 (D:\space02\ideal\MaWenBo01\Springboot\boot01\boot\boot-controller\target\classes started by admin in D:\space02\ideal\MaWenBo01\Springboot\boot01\boot)
+2019-01-14 14:00:30.024  INFO 8140 --- [main] boot.BootControllerApplication           : No active profile set, falling back to default profiles: default
+2019-01-14 14:00:32.489  WARN 8140 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[boot]' package. Please check your configuration.
+2019-01-14 14:00:33.270  WARN 8140 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myBatisConfig': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'cpgMaster' available
+2019-01-14 14:00:33.283  INFO 8140 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-14 14:00:33.380 ERROR 8140 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setConfigurers in org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration required a bean named 'cpgMaster' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'cpgMaster' in your configuration.
+
+2019-01-14 14:08:53.864  INFO 2104 --- [main] boot.BootControllerApplication           : Starting BootControllerApplication on admin-PC with PID 2104 (D:\space02\ideal\MaWenBo01\Springboot\boot01\boot\boot-controller\target\classes started by admin in D:\space02\ideal\MaWenBo01\Springboot\boot01\boot)
+2019-01-14 14:08:53.870  INFO 2104 --- [main] boot.BootControllerApplication           : No active profile set, falling back to default profiles: default
+2019-01-14 14:08:55.614  WARN 2104 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[boot]' package. Please check your configuration.
+2019-01-14 14:08:56.088  WARN 2104 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tomcatServletWebServerFactory' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/ServletWebServerFactoryConfiguration$EmbeddedTomcat.class]: BeanPostProcessor before instantiation of bean failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration': Unsatisfied dependency expressed through method 'setConfigurers' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'myBatisConfig': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'cpgMaster' available
+2019-01-14 14:08:56.105  INFO 2104 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-14 14:08:56.213 ERROR 2104 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setConfigurers in org.springframework.transaction.annotation.AbstractTransactionManagementConfiguration required a bean named 'cpgMaster' that could not be found.
+
+
+Action:
+
+Consider defining a bean named 'cpgMaster' in your configuration.
+

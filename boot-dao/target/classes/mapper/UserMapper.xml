@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="boot.mapper.common.UserMapper">
+    <select id="getUserList" resultType="boot.db.User">
+        select   id AS id,
+          user_name AS userName,
+          user_password AS userPassword,
+          user_address  AS userAddress,
+          description   AS description,
+          creator AS creator,
+          modifier AS modifier,
+          create_time AS createTime,
+          last_modified_db_time AS lastModifiedDbTime,
+          last_modified_time AS lastModifiedTime
+        from t_user
+    </select>
+</mapper>
